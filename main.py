@@ -18,6 +18,7 @@ for i in range(times):
     if currentText[i] == user[i]:
         cc+=1
 print(cc)
+print("--------------------------")
 print(timeTaken, "secs")
 timeTaken/=60
 cpm = cc/timeTaken
@@ -26,5 +27,6 @@ wpm = cpm/5
 print("WPM:", wpm)
 accuracy = cc/len(currentText)*100
 print("Accuracy:", int(accuracy), "%")
+print("--------------------------")
 
 
